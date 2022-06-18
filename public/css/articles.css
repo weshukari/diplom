@@ -1,0 +1,34 @@
+.div-banner{
+    border-top: 2px solid #89023f4e;
+    border-bottom: 2px solid #0EAD69;
+}
+.accordion-item{
+    background: none;
+}
+.accordion-button:focus{
+    border-color: #FEB95F;
+    box-shadow: 0 0 0.25rem #FEB95F;
+}
+.html:not(.collapsed){
+    color: #89023E;
+    background-color: #FEB95F;
+}
+.python:not(.collapsed){
+    background-color: #b00351;
+    color: #FEB95F;
+}
+#content>div.showed{
+    display:block;
+}
+#content>div{
+    display:none;
+}
+
+.img-wrapper img{
+    box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 800px) {
+    .row {
+        width: 100% !important;
+    }
+}

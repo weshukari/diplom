@@ -1,0 +1,13 @@
+.d-info{
+    background-color:#89023E;
+    color: rgb(249, 232, 190);
+    box-shadow: 0 5px 10px rgba(106, 1, 1, 0.301), inset 0 10px 20px rgba(255, 255, 255, 0.111) ;
+}
+.link-more-info{
+    text-decoration: none;
+    color: rgb(249, 232, 190);
+    border-top: 1px solid rgb(249, 232, 190);
+}
+.link-more-info:hover{
+    color:white;
+}

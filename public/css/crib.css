@@ -1,0 +1,27 @@
+.div-banner{
+    border-top: 2px solid #89023f4e;
+    border-bottom: 2px solid #0EAD69;
+}
+.accordion-item{
+    background: none;
+}
+.accordion-button:focus{
+    border-color: #FEB95F;
+    box-shadow: 0 0 0.25rem #FEB95F;
+}
+.accordion-button:not(.collapsed){
+    color: #89023E;
+    background-color: #FEB95F;
+}
+#content>div.showed{
+    display:block;
+}
+#content>div{
+    display:none;
+}
+
+@media screen and (max-width: 800px) {
+    table td, table th {
+        font-size:8pt;
+    }
+}

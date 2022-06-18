@@ -1,0 +1,91 @@
+body {
+  font-family: roboto;
+  background-color: #F0E6EF;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #89023E;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: #facf98;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.logo{
+  border-bottom: 1px solid #facf98;
+}
+.logo img{
+  border: 2px solid #facf98;
+
+}
+.link{
+  border-bottom: 1px solid #facf98;
+}
+.accordion-header{
+  background: none;
+}
+.accordion-item{
+  background: none;
+  border: none;
+
+}
+.accordion-button{
+ background:none;
+  color: #facf98;
+}
+.accordion-button:not(.collapsed){
+  background: none;
+  color: #F0E6EF;
+}
+.accordion-button:focus{
+  border: none;
+  box-shadow: none;
+}
+.accordion-button::after{
+  color: #facf98;
+}
+.btn-primary{
+  background-color: #970446;
+  border-color: #970446;
+}
+.btn-primary:hover{
+  background-color: #64002d;
+  border-color: #64002d;
+}
+.btn-primary:focus{
+  background-color: #89023E;
+  border-color: #89023E;
+  box-shadow: 0 0 0 0.25rem #89023f89;
+}
+.form-control:focus{
+  border-color:#FEB95F;
+  box-shadow: 0 0 0 0.25rem #feb95f7d ;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}

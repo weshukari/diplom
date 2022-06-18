@@ -1,0 +1,22 @@
+.div-banner{
+    border-top: 2px solid #89023f4e;
+    border-bottom: 2px solid #0EAD69;
+    overflow: hidden;
+}
+.text-h6{
+    line-height:25px;
+}
+#content div{
+    display:none;
+}
+#content div.showed{
+    display:block;
+}
+@media screen and (max-width: 800px) {
+    button{
+        min-width:120px;
+    }
+    #buttons{
+        width:100% !important;
+    }
+}
